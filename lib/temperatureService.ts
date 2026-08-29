@@ -12,6 +12,7 @@ export interface TemperatureData {
 
 // Comprehensive global data
 const DEMO_DATA: TemperatureData[] = [
+  { location: "Phoenix, AZ", temperature: 112, unit: "F", timestamp: new Date().toISOString(), status: "extreme", aiSignal: "Critical", coords: [-112.0740, 33.4484] },
   { location: "Mumbai, India", temperature: 31.4, unit: "C", timestamp: new Date().toISOString(), status: "High Heat", aiSignal: "Elevated", coords: [72.8777, 19.0760] },
   { location: "Delhi, India", temperature: 34.2, unit: "C", timestamp: new Date().toISOString(), status: "Extreme", aiSignal: "Critical", coords: [77.1025, 28.7041] },
   { location: "London, UK", temperature: 19.1, unit: "C", timestamp: new Date().toISOString(), status: "Normal", aiSignal: "Stable", coords: [-0.1276, 51.5072] },
